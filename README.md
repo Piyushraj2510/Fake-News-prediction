@@ -1,4 +1,4 @@
-#### 📰 Fake News Prediction with Logistic Regression  
+# 📰 Fake News Prediction with Logistic Regression  
 
 A simple and efficient machine learning project for detecting fake news articles using Logistic Regression. 
 
