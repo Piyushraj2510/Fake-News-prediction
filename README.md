@@ -2,7 +2,7 @@
 
 A simple and efficient machine learning project for detecting fake news articles using Logistic Regression. 
 
-🚀 Features  
+## 🚀 Features  
 
 - **Text Preprocessing**: Removes noise like stopwords, punctuation, and performs tokenization.  
 - **TF-IDF Vectorization**: Converts textual data into meaningful numerical features.  
@@ -44,25 +44,6 @@ We used the [Fake News Dataset](https://www.kaggle.com/c/fake-news) from Kaggle,
 3. **Model Evaluation**:  
    - The model is evaluated on the `test.csv` dataset.  
    - Performance metrics include accuracy, precision, recall, F1-score, and ROC-AUC.  
-
-## 🖥️ Usage  
-
-### 1. Run the Notebook  
-Execute the step-by-step pipeline in the `notebooks/fake_news_pipeline.ipynb`.  
-
-### 2. Command Line Interface  
-Run the training and evaluation pipeline from the terminal:  
-```bash  
-python src/logistic_model.py --train data/train.csv --test data/test.csv  
-```  
-
-### 3. Web App  
-Start the Streamlit app for real-time predictions:  
-```bash  
-cd app  
-streamlit run app.py  
-```  
-Then, open `http://127.0.0.1:8501` in your browser.  
 
 ## 📈 Results  
 
