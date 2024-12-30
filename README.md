@@ -47,6 +47,6 @@ Contributions are welcome! Please submit a pull request or create an issue for s
 ## 🙌 Acknowledgments  
 
 - [Kaggle Fake News Dataset](https://www.kaggle.com/c/fake-news)  
-- Libraries: Scikit-learn, Pandas, NumPy, Streamlit  
+- Libraries: Scikit-learn, Pandas, NumPy
 
 
