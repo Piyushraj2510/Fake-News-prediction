@@ -7,7 +7,7 @@ A simple and efficient machine learning project for detecting fake news articles
 - **Text Preprocessing**: Removes noise like stopwords, punctuation, and performs tokenization.  
 - **TF-IDF Vectorization**: Converts textual data into meaningful numerical features.  
 - **Logistic Regression**: A robust linear model for binary classification.  
-- **Model Evaluation**: Provides accuracy, precision, recall, F1-score, and confusion matrix for performance analysis.  
+- **Model Evaluation**: Provides accuracy for performance analysis.  
 
 ## 📂 Project Structure  
 
