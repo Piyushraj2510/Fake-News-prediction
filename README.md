@@ -31,21 +31,6 @@ Fake-News-Prediction/
 
 We used the [Fake News Dataset](https://www.kaggle.com/c/fake-news) from Kaggle, which contains labeled news articles with `title`, `text`, and `label` (`1` for fake news, `0` for real news). The dataset is split into training and test sets.  
 
-## ⚙️ Installation  
-
-1. Clone the repository:  
-   ```bash  
-   git clone https://github.com/your-username/fake-news-prediction.git  
-   cd fake-news-prediction  
-   ```  
-
-2. Install dependencies:  
-   ```bash  
-   pip install -r requirements.txt  
-   ```  
-
-3. Place the dataset files (`train.csv` and `test.csv`) into the `data/` directory.  
-
 ## 🧠 How It Works  
 
 1. **Text Preprocessing**:  
@@ -81,22 +66,16 @@ Then, open `http://127.0.0.1:8501` in your browser.
 
 ## 📈 Results  
 
-| Metric              | Value   |  
+| Metric               | Value   |  
 |----------------------|---------|  
-| Accuracy            | 91.3%   |  
-| Precision           | 90.5%   |  
-| Recall              | 91.8%   |  
-| F1-Score            | 91.1%   |  
+| Accuracy(Train data) | 98.63%  |  
+| Accuracy(Test  data) | 97.90%  |
 
 ## 🔧 Future Improvements  
 
-- Expand preprocessing techniques to include stemming/lemmatization.  
+
 - Implement additional feature engineering techniques.  
 - Deploy the app using Docker for scalability.  
-
-## 📜 License  
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
 
 ## 🤝 Contributing  
 
@@ -107,6 +86,4 @@ Contributions are welcome! Please submit a pull request or create an issue for s
 - [Kaggle Fake News Dataset](https://www.kaggle.com/c/fake-news)  
 - Libraries: Scikit-learn, Pandas, NumPy, Streamlit  
 
----  
 
-Let me know if you'd like to modify anything or add additional sections!
