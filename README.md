@@ -9,24 +9,6 @@ A simple and efficient machine learning project for detecting fake news articles
 - **Logistic Regression**: A robust linear model for binary classification.  
 - **Model Evaluation**: Provides accuracy for performance analysis.  
 
-## 📂 Project Structure  
-
-```
-Fake-News-Prediction/
-├── data/
-│   ├── train.csv             # Training dataset
-│   ├── test.csv              # Test dataset
-├── notebooks/
-│   ├── fake_news_pipeline.ipynb  # End-to-end notebook with preprocessing, training, and evaluation
-├── src/
-│   ├── preprocessing.py      # Text preprocessing and cleaning functions
-│   ├── logistic_model.py     # Logistic Regression model implementation
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project README
-└── app/
-    ├── app.py                 # Streamlit app for live predictions
-```  
-
 ## 📊 Dataset  
 
 We used the [Fake News Dataset](https://www.kaggle.com/c/fake-news) from Kaggle, which contains labeled news articles with `title`, `text`, and `label` (`1` for fake news, `0` for real news). The dataset is split into training and test sets.  
